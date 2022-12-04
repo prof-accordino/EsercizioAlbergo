@@ -52,6 +52,12 @@ public class Data
 		return false; //uguale non è maggiore, quindi false!
 	}
 	
+	/*
+	 * Questo metodo non era necessario
+	 * ma si rivela utile per calcolare
+	 * il prezzo della prenotazione
+	 * e capire se l'ospite è maggiorenne
+	 */
 	int distanzaGiorni(Data dataDiOggi)
 	{
 		int anni = dataDiOggi.anno - this.anno;
