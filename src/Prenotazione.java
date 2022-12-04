@@ -80,6 +80,9 @@ public class Prenotazione
 		return prezzo / arrayOspiti.length;
 	}
 	
+	/*
+	 * Questo metodo non era richiesto ma aiuta a visualizzare i dati
+	 */
 	public void stampaPrenotazione()
 	{
 		System.out.println("Prenotazione n. " + codice);

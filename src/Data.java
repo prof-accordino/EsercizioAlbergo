@@ -68,6 +68,10 @@ public class Data
 		return anni*365 + mese*30 + giorni;
 	}
 	
+	/*
+	 * Anche Questo metodo non era necessario ma è utile 
+	 * per stampare le informazioni sulle date
+	 */
 	String dataStringa()
 	{
 		return this.giorno + "-" + this.mese+ "-" + this.anno;
